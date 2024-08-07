@@ -1,45 +1,12 @@
-body {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-form {
-  background: white;
-  width: 500px;
-  height: 500px;
-  padding: 1.5rem;
-  border-radius: 10px;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+.gender,
+.pets,
+.user-data,
+.cars {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 20px;
 }
 
 input {
-  width: 50%;
-  height: 30px;
   margin: 10px;
-  text-align: center;
-  border-radius: 10px;
-  outline: 0.5px solid grey;
-  border: none;
-}
-
-input[type="submit"],
-input[type="reset"] {
-  width: 50%;
-  height: 10%;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 2px 2px white;
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
-}
-
-input:focus {
-  outline: none;
 }
